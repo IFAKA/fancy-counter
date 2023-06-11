@@ -33,7 +33,10 @@ export function AnimatedDigitCounter({
   });
 
   return (
-    <div style={{ fontSize, width: "auto" }} className="flex overflow-hidden">
+    <div
+      style={{ fontSize, width: "auto" }}
+      className="flex gap-[2px] overflow-hidden"
+    >
       {digits}
     </div>
   );
